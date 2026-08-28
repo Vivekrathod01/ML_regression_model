@@ -14,7 +14,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import pickle
 
 # Load dataset
-data = pd.read_csv(r"C:\Users\vivek\Downloads\USA_Housing.csv")
+data = pd.read_csv(r"https://raw.githubusercontent.com/Vivekrathod01/ML_regression_model/refs/heads/main/USA_Housing.csv")
 
 # Preprocessing
 X = data.drop(['Price', 'Address'], axis=1) 
