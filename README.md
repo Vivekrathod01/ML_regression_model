@@ -107,20 +107,6 @@ USA-Housing-Price-Prediction/
 └── README.md
 ```
 
-## ▶️ How to Run
-
-Install the required libraries:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the training script:
-
-```bash
-python regression_model.py
-```
-
 ## 🚀 Future Improvements
 
 - Build a **FastAPI** prediction API
